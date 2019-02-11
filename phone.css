@@ -1,0 +1,6 @@
+/* make all buttons 60 by 60 pixels with black text and white background and a 10 pixel margin */
+button { width: 60px; height: 60px; background: white; color: black; margin: 10px; }
+/* make these buttons have a red background */
+#Clear_Contact {background: red;}
+/* make this button have a grey background */
+#Contact_self {background: gray;}

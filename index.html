@@ -1,0 +1,88 @@
+<!-- Assignment details here: http://shaunkane.com/csci4849-spring2019/activities/a1/a1-gui.html -->
+<html>
+	<head>
+		<link rel="stylesheet" href="phone.css">
+		<title> Walter's Phone Dialer </title> 
+	</head>
+	<body>
+	<!-- Tab bar -->
+		<div id="tabs"> 
+		<!-- Makes 3 clickable tabs on the bar -->
+			<button id="Dialer"> Dialer </button>
+			<button id="Contactlist"> Contact List </button>
+			<button id="Add-Contact"> Add Contact </button>
+		</div>
+	<!-- Tab content -->
+		<div id="tab_content">
+			<div id="Content_Dialer">
+			<!-- Numpad with a display for the inputed number -->
+			<h1> Dialer </h1>
+			<form>
+				<label for="dial"> Dial </label>
+				<input id="dial" placeholder="123-456-7890">
+			</form>
+			<h2>
+				<button id="one"> 1 </button>
+				<button id="two"> 2 </button>
+				<button id="three"> 3 </button>
+			</h2>
+			<h3>
+				<button id="four"> 4 </button>
+				<button id="five"> 5 </button>
+				<button id="six"> 6 </button>
+			</h3>
+			<h4>
+				<button id="seven"> 7 </button>
+				<button id="eight"> 8 </button>
+				<button id="nine"> 9 </button>
+			</h4>
+			<h5>
+				<button id="star"> * </button>
+				<button id="zero"> 0 </button>
+				<button id="pound"> # </button>
+			</h5>
+			<h6>
+				<button id="dial"> Dial </button>
+				<button id="clear"> Clear </button>
+			</h6>
+			</div>
+		
+			<div id="Content_Contactlist">
+			<!-- Shows contacts in a list -->
+			<!-- For assignment1 this is a temp list -->
+				<h1>Contacts</h1>
+				<h2>
+					<button id="Contact_self"> Walter Hoang </button>
+					<button id="Contact_friend"> Mario Mario </button>
+					<button id="Contact_friend"> Luigi Mario </button>
+				</h2>
+				<h3>
+					<button id="Contact_family"> Brother </button>
+					<button id="Contact_family"> Uncle </button>
+				</h3>
+			</div>
+		
+			<div id="Content_Add-Contact">
+			<!-- Shows a form to add a new contact -->
+			<h1> Add Contact </h1>
+			<form>
+				<label for="name">Name</label>
+				<input id="name" placeholder="Jane Smith">
+			</form>
+			<form>
+				<label for="number"> Number </label>
+				<input id="number" placeholder="123-456-7890">
+			</form>
+			<form>
+				<label for="email"> Email </label>
+				<input id="email" placeholder="JaneSmith@gmail.com">
+			</form>
+			<button id="Add_Contact"> Add Contact </button>
+			<button id="Clear_Contact"> Clear </button>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+	
+</html>
